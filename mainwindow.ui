@@ -45,8 +45,18 @@
     <addaction name="action_C_2"/>
     <addaction name="action_A_2"/>
    </widget>
+   <widget class="QMenu" name="menu_I">
+    <property name="title">
+     <string>檢查(&amp;L)</string>
+    </property>
+    <addaction name="action_O"/>
+    <addaction name="action_G"/>
+    <addaction name="action_T_2"/>
+    <addaction name="action_G_2"/>
+   </widget>
    <addaction name="menu_N"/>
    <addaction name="menu_E"/>
+   <addaction name="menu_I"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="action_0">
@@ -128,6 +138,26 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="action_O">
+   <property name="text">
+    <string>縮小(&amp;O)</string>
+   </property>
+  </action>
+  <action name="action_G">
+   <property name="text">
+    <string>放大(&amp;P)</string>
+   </property>
+  </action>
+  <action name="action_T_2">
+   <property name="text">
+    <string>工具列(&amp;T)</string>
+   </property>
+  </action>
+  <action name="action_G_2">
+   <property name="text">
+    <string>狀態列(&amp;G)</string>
    </property>
   </action>
  </widget>
